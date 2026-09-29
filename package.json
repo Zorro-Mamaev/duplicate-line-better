@@ -16,12 +16,21 @@
       {
         "command": "duplicate-line-better.duplicateLine",
         "title": "Duplicate Line Better"
+      },
+      {
+        "command": "duplicate-line-better.duplicateNTimes",
+        "title": "Duplicate N Times"
       }
     ],
     "keybindings": [
       {
         "command": "duplicate-line-better.duplicateLine",
         "key": "ctrl+alt+d",
+        "when": "editorTextFocus"
+      },
+      {
+        "command": "duplicate-line-better.duplicateNTimes",
+        "key": "ctrl+alt+shift+d",
         "when": "editorTextFocus"
       }
     ]
