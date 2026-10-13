@@ -1,8 +1,11 @@
 {
   "name": "duplicate-line-better",
   "displayName": "Duplicate Line Better",
-  "description": "Duplicate lines and automatically increment numbers",
   "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Zorro-Mamaev/duplicate-line-better.git"
+  },
   "engines": {
     "vscode": "^1.138.0"
   },
